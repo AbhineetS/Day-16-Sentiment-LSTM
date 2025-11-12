@@ -1,0 +1,8 @@
+Evaluation Summary (Test Set):
+
+Accuracy: 0.7714
+Precision (Positive): 0.8184
+Recall (Positive): 0.6978
+F1-Score (Positive): 0.7533
+
+Confusion matrix and full report saved as confusion_matrix.png
