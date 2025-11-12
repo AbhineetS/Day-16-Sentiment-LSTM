@@ -1,0 +1,41 @@
+# 📊 Day 16 — Sentiment Analysis using LSTM
+
+This project explores **Natural Language Processing (NLP)** using a **Long Short-Term Memory (LSTM)** neural network to perform sentiment analysis on the **IMDB Movie Review Dataset**.  
+It classifies reviews as **Positive** or **Negative**, demonstrating how deep learning models can process sequential data for text understanding.
+
+---
+
+## 🚀 Overview
+- Preprocessed IMDB reviews into padded integer sequences  
+- Built an **LSTM model** with an Embedding layer for word vectorization  
+- Trained and validated using binary cross-entropy loss  
+- Visualized performance via loss, accuracy, and confusion matrix plots  
+
+---
+
+## 🧠 Workflow
+1. **Data Loading & Preprocessing** — Load IMDB dataset and pad sequences  
+2. **Model Building** — Define embedding + LSTM + dense architecture  
+3. **Training** — Fit the model with early stopping  
+4. **Evaluation** — Generate classification report and confusion matrix  
+
+---
+
+## 📈 Results
+After 4 epochs:
+- Accuracy: ~86–90%  
+- Model: `sentiment_lstm.h5`  
+- Visuals saved as:
+  - `training_history.png`
+  - `confusion_matrix.png`
+
+---
+
+## 🧩 Tech Stack
+Python | TensorFlow | Keras | Matplotlib | Seaborn | Scikit-learn
+
+---
+
+## 🔗 Connect  
+💼 [LinkedIn - Abhineet Singh](https://www.linkedin.com/in/abhineet-s)  
+📁 [GitHub Repository](https://github.com/AbhineetS/Day-16-Sentiment-LSTM)
