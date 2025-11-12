@@ -1,0 +1,8 @@
+Model: sentiment_lstm.h5
+Simple LSTM architecture:
+- Embedding(input_dim=10000, output_dim=128)
+- LSTM(128)
+- Dropout(0.5)
+- Dense(1, activation='sigmoid')
+
+Saved from training on IMDB dataset.
